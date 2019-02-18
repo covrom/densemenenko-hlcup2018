@@ -1,9 +1,7 @@
 package main
 
 import (
-	h "dsmnko.org/hlc18"
 	"fmt"
-	"github.com/valyala/fasthttp"
 	"log"
 	"math"
 	"runtime"
@@ -14,6 +12,9 @@ import (
 	"sync/atomic"
 	"tidwall/evio"
 	"time"
+
+	h "dsmnko.org/hlc18"
+	"github.com/valyala/fasthttp"
 )
 
 const CAPACITY = 1320000
